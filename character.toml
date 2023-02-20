@@ -18,7 +18,36 @@ intelligence = "14"
 wisdom = "10"
 charisma = "14"
 
-[skills]
+[saving_throws]
+# "" normal , "*" for proficiency, "**" for mastery, "+x" other bonus (not implemented yet)
+strength = ""
+dexterity = ""
+constitution = ""
+intelligence = ""
+wisdom = ""
+charisma = ""
 
+[skills]
+# "" normal , "*" for proficiency, "**" for mastery, "+x" other bonus (not implemented yet)
+acrobatics_(Dex) =""
+animal_Handling_(Wis)=""
+arcana_(Int)=""
+athletics_(Str)=""
+deception_(Cha)=""
+history_(Int)=""
+insight_(Wis)=""
+intimidation_(Cha)=""
+investigation_(Int)=""
+medicine_(Wis)=""
+nature_(Int)=""
+perception_(Wis)=""
+performance_(Cha)=""
+persuasion_(Cha)=""
+religion_(Int)=""
+sleight_of_Hand_(Dex)=""
+stealth_(Dex)=""
+survival_(Wis)=""
+
+[other]
 inspiration = "1"
 proficiency_bonus = "3"

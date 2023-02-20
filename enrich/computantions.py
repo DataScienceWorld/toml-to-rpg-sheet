@@ -1,3 +1,4 @@
+import re
 
 def get_abilityScoresModifiers(value):
     mapping = {
@@ -35,3 +36,16 @@ def get_abilityScoresModifiers(value):
     
     mod=mapping[value]
     return mod
+
+def gey_abilityRef(ability):
+    statRef = re.search('\((.+)\)', ability).group(1)
+    mapping= {
+    "Dex" : "dexterity",
+    "Wis" :"wisdom",
+    "Int":"intelligence",
+    "Str":"strength",
+    "Cha":"charisma",
+    }
+    statName=mapping[statRef]
+    return statName
+
